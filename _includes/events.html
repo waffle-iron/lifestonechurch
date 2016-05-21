@@ -17,5 +17,11 @@
 			</dt>
 			{% capture oldMonth %}{{ newMonth }}{% endcapture %}
 		{% endfor %}
+		<p>---</p>
 	{% endif %}
 </dl>
+<ul>
+{% for collection in site.collections.events %}
+	<li>{{ collections }}</li>
+{% endfor %}
+</ul>

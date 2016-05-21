@@ -15,12 +15,21 @@ collections:
     layout: redirect
     output: true
     permalink: /:path/
+  events:
+    layout: events
+    output: true
+    permalink: /events/:path/
 defaults:
   -
     scope:
       type: redirects
     values:
       layout: redirect
+  -
+    scope:
+      type: events
+    values:
+      layout: events
   -
     scope:
       type: posts
