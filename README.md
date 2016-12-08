@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/Mountainview-WebDesign/lifestonechurch.png?label=ready&title=Ready)](https://waffle.io/Mountainview-WebDesign/lifestonechurch)
 # Contributing
 
 If you would like to contribute:
